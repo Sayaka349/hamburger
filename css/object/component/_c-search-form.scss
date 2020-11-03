@@ -1,0 +1,29 @@
+.c-search-form {
+    &__input {
+        border: $search-box-line;
+        border-radius: 10px;
+        height: 29px;    
+        width: 246px;
+        padding: 0 25px;
+        background: #ffffff;
+    }
+    &__buttom {
+        @extend .c-search-form__input;
+        width: 84px;
+        font-family: $jp-fonts-b;
+        color: $header-color;
+        font-size: 1rem;
+        background: linear-gradient(#F2EDE9,#DED8D3);
+    }
+}
+
+@include mq(sm) {
+    .c-search-form{
+        &__input {
+            width: 200px;
+        }
+        &__buttom {
+            width: 75px;
+        }
+    }
+}
