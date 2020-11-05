@@ -18,19 +18,29 @@
 
     h3 {
         font-family: $jp-fonts-b;
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-bottom: 4%;
     }
 
     p {
         font-family: $jp-fonts-l;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 
 @include mq() {
-    .c-eat-place__title{
+    .c-eat-place__title {
         font-size: 3rem;
+    }
+
+    .c-eat-place__txtsub {
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        P {
+            font-size: 1rem;
+        }
     }
 }
