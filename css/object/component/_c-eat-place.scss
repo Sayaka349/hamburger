@@ -1,0 +1,36 @@
+.c-eat-place__title {
+    font-family: $en-fonts;
+    font-size: 5rem;
+    margin: 4%;
+        :hover {
+            opacity: 0.8;
+        }
+
+    a {
+        color: #ffffff;
+    }
+}
+
+.c-eat-place__txtsub {
+    background: rgba($color: #ffffff, $alpha: 0.8) ;
+    padding: 4%;
+    margin: 4%;
+
+    h3 {
+        font-family: $jp-fonts-b;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+    }
+
+    p {
+        font-family: $jp-fonts-l;
+        font-size: 1rem;
+    }
+}
+
+
+@include mq() {
+    .c-eat-place__title{
+        font-size: 3rem;
+    }
+}

@@ -458,6 +458,43 @@ img {
   }
 }
 
+.c-eat-place__title {
+  font-family: "Robot", sans-serif;
+  font-size: 5rem;
+  margin: 4%;
+}
+
+.c-eat-place__title :hover {
+  opacity: 0.8;
+}
+
+.c-eat-place__title a {
+  color: #ffffff;
+}
+
+.c-eat-place__txtsub {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4%;
+  margin: 4%;
+}
+
+.c-eat-place__txtsub h3 {
+  font-family: "mplus-1m-bold", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 4%;
+}
+
+.c-eat-place__txtsub p {
+  font-family: "mplus-1m-regular", sans-serif;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .c-eat-place__title {
+    font-size: 3rem;
+  }
+}
+
 .p-contents {
   display: -webkit-box;
   display: -webkit-flex;
@@ -512,6 +549,74 @@ aside {
 @media screen and (max-width: 900px) {
   .p-front-top {
     max-height: 178px;
+  }
+}
+
+.p-eat-place {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 40px;
+}
+
+.p-eat-place__select {
+  width: 45%;
+  height: 740px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.p-eat-place__select-takeout {
+  background-image: url(../../../images/archive-top.jpg);
+  background-position: center;
+}
+
+.p-eat-place__select-eatin {
+  background-image: url(../../../images/eat-in.jpg);
+  background-position: center;
+}
+
+.p-eat-place hr {
+  margin: 4%;
+  height: 5px;
+  width: 45px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.p-eat-place__txt {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .p-eat-place {
+    padding: 40px 20px;
+  }
+  .p-eat-place__select {
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .p-eat-place {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 10px;
+  }
+  .p-eat-place__select {
+    width: 90%;
+  }
+  .p-eat-place__select-takeout {
+    margin-bottom: 30px;
+  }
+  .p-eat-place hr {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
