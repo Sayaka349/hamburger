@@ -631,7 +631,7 @@ aside {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../../../images/front-top.jpg);
+  background-image: url(../images/front-top.jpg);
   height: 330px;
   background-size: cover;
   background-position: center;
