@@ -18,7 +18,7 @@
                     <span class="fas fa-search"></span>
                     <input type="submit" class="c-search-form__buttom" value="検索">
                 </form>
-                <span class="l-header__menu-icon">Menu</span>
+                <!-- <span class="l-header__menu-icon">Menu</span> -->
             </header>
             
             <div class="p-front-top">
@@ -71,7 +71,14 @@
 
         </main>
 
+        <input id="l-drawer" type="checkbox"/>
+        <label for="l-drawer" class="open">
+        <span class="l-drawer__menu-icon">Menu</span></label>
+        <label for="l-drawer" class="back"></label>
+
         <aside class="l-sidebar">
+            <label for="l-drawer" class="close">✖</label>
+
             <h2 class="l-sidebar__menu">Menu</h2>
             <ul class="c-food-menu">
                 <li class ="c-food-menu__category"><a href="#">バーガー</a>
