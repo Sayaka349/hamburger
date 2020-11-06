@@ -2,8 +2,8 @@
     &__input {
         border: $search-box-line;
         border-radius: 10px;
-        height: 29px;    
-        width: 246px;
+        height: 35px;        
+        width: 250px;
         padding: 0 25px;
         background: #ffffff;
     }
@@ -12,7 +12,7 @@
         width: 84px;
         font-family: $jp-fonts-b;
         color: $header-color;
-        font-size: 1rem;
+        font-size: 1.2rem;
         background: linear-gradient(#F2EDE9,#DED8D3);
     }
 }

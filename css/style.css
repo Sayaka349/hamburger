@@ -421,7 +421,44 @@ img {
 }
 
 .l-footer {
-  height: 93px;
+  background-image: url(../../images/footer.jpg);
+  height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-footer p {
+  font-family: "mplus-1m-regular", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.l-footer p a {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.l-sidebar {
+  background-color: #F2EDE9;
+}
+
+.l-sidebar__menu {
+  margin: 49px 25px;
+  font-family: "Robot", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #707070;
 }
 
 @media screen and (max-width: 900px) {
@@ -433,8 +470,8 @@ img {
 .c-search-form__input, .c-search-form__buttom {
   border: 1px solid #707070;
   border-radius: 10px;
-  height: 29px;
-  width: 246px;
+  height: 35px;
+  width: 250px;
   padding: 0 25px;
   background: #ffffff;
 }
@@ -443,7 +480,7 @@ img {
   width: 84px;
   font-family: "mplus-1m-bold", sans-serif;
   color: #707070;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#F2EDE9), to(#DED8D3));
   background: -webkit-linear-gradient(#F2EDE9, #DED8D3);
   background: linear-gradient(#F2EDE9, #DED8D3);
@@ -525,6 +562,37 @@ img {
   color: #ffffff;
 }
 
+.c-food-menu {
+  margin-left: 25px;
+}
+
+.c-food-menu li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.c-food-menu li :hover {
+  opacity: 0.8;
+}
+
+.c-food-menu__category {
+  font-size: 2rem;
+}
+
+.c-food-menu__category a {
+  font-family: "mplus-1m-bold", sans-serif;
+  color: #707070;
+}
+
+.c-food-menu__item {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.c-food-menu__item a {
+  font-family: "mplus-1m-regular", sans-serif;
+}
+
 .p-contents {
   display: -webkit-box;
   display: -webkit-flex;
@@ -540,7 +608,7 @@ main {
 }
 
 aside {
-  width: 230px;
+  width: 240px;
 }
 
 .p-search-form {
@@ -550,8 +618,8 @@ aside {
 .p-search-form .fa-search {
   position: absolute;
   left: 7px;
-  top: 8px;
-  font-size: 1.5rem;
+  top: 10px;
+  font-size: 1.7rem;
 }
 
 .p-front-top {
