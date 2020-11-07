@@ -9,3 +9,14 @@ main {
 aside {
     width: 240px;
 }
+
+// @include mq(sm) {
+//     main {
+//         width: 50%;
+//     }
+
+//     aside{
+//         flex: 1;
+//         width: 50%;
+//     }
+// }

@@ -14,8 +14,6 @@ $breakpoints: (
 // @media sreen and (max-width: 768px) を取得している
 
 // 使う時は
-// @include mq() {
-
-// }
+// @include mq() {}
 
 // ()内、初期値mdなので、必要に応じてsm、lgを入力

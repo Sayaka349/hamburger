@@ -1,54 +1,54 @@
-.l-drawer__menu-icon {
-    margin: 10px 10px;
-    font-family: $en-fonts;
-    font-weight: 900;
-    font-size: 2.5rem;
-    color: $header-color;
-}
+// .l-drawer__menu-icon {
+//     margin: 10px 10px;
+//     font-family: $en-fonts;
+//     font-weight: 900;
+//     font-size: 2.5rem;
+//     color: $header-color;
+// }
 
 
-.open,
-.close {
-    display: none;
-}
-input[type="checkbox"] {
-    position: absolute;
-    left: -50vw;
-}
+// .open,
+// .close {
+//     display: none;
+// }
+// input[type="checkbox"] {
+//     position: absolute;
+//     left: -50vw;
+// }
 
-@include mq() {
-    .open,
-    .close {
-        display: block;
-    }
-    .open {
-        position: absolute;
-        top: 5px;
-        right: 0.3vw;
-    }
+// @include mq() {
+//     .open,
+//     .close {
+//         display: block;
+//     }
+//     .open {
+//         position: absolute;
+//         top: 5px;
+//         right: 0.3vw;
+//     }
 
-    .close {
-        color: $sidebar-color;
-        font-size: 30px;
-        position: absolute;
-        top: 0px;
-        right: 10px;
-    }
+//     .close {
+//         color: $sidebar-color;
+//         font-size: 30px;
+//         position: absolute;
+//         top: 0px;
+//         right: 10px;
+//     }
 
-    aside {
-        position: absolute;
-        left: 200vw;
-        height: 200vw;
-        transition: all 0.3s;
-        z-index: 100;
-    }
-    input[type="checkbox"]:checked ~ aside {
-        position: static;
-    }
-    input[type="checkbox"]:checked ~ .back {
-        position: absolute;
-        width: 100%;
-        height: 200vw;
-        background: rgba(0, 0, 0, 0.8);
-    }
-}
+//     aside {
+//         position: absolute;
+//         left: 200vw;
+//         height: 200vw;
+//         transition: all 0.3s;
+//         z-index: 100;
+//     }
+//     input[type="checkbox"]:checked ~ aside {
+//         position: static;
+//     }
+//     input[type="checkbox"]:checked ~ .back {
+//         position: absolute;
+//         width: 100%;
+//         height: 200vw;
+//         background: rgba(0, 0, 0, 0.8);
+//     }
+// }

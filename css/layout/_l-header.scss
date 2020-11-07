@@ -17,17 +17,17 @@
         color: $header-color;
     }
     
-    // &__menu-icon {
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-    //     margin: 10px 15px;
-    //     font-family: $en-fonts;
-    //     font-weight: 900;
-    //     font-size: 2.5rem;
-    //     color: $header-color;
-    //     display: none;
-    // }
+    &__menu-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px 15px;
+        font-family: $en-fonts;
+        font-weight: 900;
+        font-size: 2.5rem;
+        color: $header-color;
+        display: none;
+    }
 
 }
 
@@ -44,8 +44,12 @@
         &__menu-icon {
             display: block;
         }
-
     }
+
+    .l-header__menu-icon.show {
+        display: none;
+    }
+
 }
 
 @include mq(sm) {
@@ -53,3 +57,4 @@
         font-size: 2rem;
     }
 }
+
