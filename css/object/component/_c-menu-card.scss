@@ -1,0 +1,16 @@
+.c-menu-card {
+    display: flex;
+    margin-top: 20px;
+    height: 300px;
+
+    &__picture {
+        flex: 1;
+        background-image: url(../../../images/archive-menu.jpg);
+        background-size: cover;
+        background-position: center;    
+    }
+
+    &__about {
+        flex: 1;
+    }
+}

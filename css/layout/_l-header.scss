@@ -33,6 +33,7 @@
 
 @include mq() {
     .l-header {
+        padding: 0 21px;
         flex-direction: column;
         justify-content: center; 
 

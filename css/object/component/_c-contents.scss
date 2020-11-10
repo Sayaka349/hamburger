@@ -1,0 +1,16 @@
+.c-contents {
+    display: flex;
+
+    &-archive{
+        padding: 37px 61px;
+    }
+}
+
+main {
+    flex: 1;
+}
+
+aside {
+    width: 240px;
+}
+

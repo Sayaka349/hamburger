@@ -21,14 +21,13 @@
     .l-sidebar.show {
         display: block;
         position: absolute;
-        padding-bottom: 400px;
         right: 0;
     }
 
     .l-sidebar__menu-icon.show {
         position: absolute;
-        top: -120px;
-        left: 200px;
+        top: -110px;
+        left: 190px;
         display: inline-block;
         vertical-align: middle;
         color: $header-color;
