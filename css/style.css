@@ -724,7 +724,7 @@ aside {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-image: url(../../../images/archive-menu.jpg);
+  background-image: url(../images/archive-menu.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -975,7 +975,7 @@ aside {
 }
 
 .p-archive-bg {
-  background-image: url(/images/archive-top.jpg);
+  background-image: url(../images/archive-top.jpg);
   height: 170px;
   background-size: cover;
   background-position: center;
