@@ -1,8 +1,30 @@
 .c-contents {
     display: flex;
+    background-color: $content-bg;
 
     &-archive{
         padding: 37px 61px;
+        @include mq() {
+            padding: 30px;
+        }
+
+
+        >h3 {
+            font-family: $jp-fonts-b;
+            font-size: 2rem;
+            @include mq(sm) {
+                font-size: 1.5rem;
+            }
+        }
+
+        >p {
+            font-family: $jp-fonts-l;
+            font-size: 1.5rem;
+            margin: 20px 0;
+            @include mq(sm) {
+                font-size: 1rem;
+            }
+        }
     }
 }
 

@@ -510,10 +510,40 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  background-color: #FFFDFA;
 }
 
 .c-contents-archive {
   padding: 37px 61px;
+}
+
+@media screen and (max-width: 900px) {
+  .c-contents-archive {
+    padding: 30px;
+  }
+}
+
+.c-contents-archive > h3 {
+  font-family: "mplus-1m-bold", sans-serif;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 575px) {
+  .c-contents-archive > h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.c-contents-archive > p {
+  font-family: "mplus-1m-regular", sans-serif;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 575px) {
+  .c-contents-archive > p {
+    font-size: 1rem;
+  }
 }
 
 main {
@@ -600,12 +630,12 @@ aside {
 
 .c-location-info {
   background-color: rgba(0, 0, 0, 0.29);
+  font-family: "mplus-1m-bold", sans-serif;
+  color: #ffffff;
 }
 
 .c-location-info h2 {
-  font-family: "mplus-1m-bold", sans-serif;
   font-size: 2.5rem;
-  color: #ffffff;
 }
 
 .c-location-info hr {
@@ -617,9 +647,7 @@ aside {
 }
 
 .c-location-info__description {
-  font-family: "mplus-1m-bold", sans-serif;
   font-size: 1.5rem;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 900px) {
@@ -676,8 +704,19 @@ aside {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
-  height: 300px;
+  margin: 30px 0;
+  height: 320px;
+}
+
+@media screen and (max-width: 575px) {
+  .c-menu-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 500px;
+  }
 }
 
 .c-menu-card__picture {
@@ -695,6 +734,99 @@ aside {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  background-color: #3C2B1C;
+  padding: 5%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 575px) {
+  .c-menu-card__about {
+    padding-right: 15%;
+  }
+}
+
+.c-menu-card__about h2 {
+  font-family: "mplus-1m-bold", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .c-menu-card__about h2 {
+    margin-top: 10px;
+  }
+}
+
+.c-menu-card__about h3 {
+  font-family: "mplus-1m-bold", sans-serif;
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 575px) {
+  .c-menu-card__about h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.c-menu-card__about p {
+  font-family: "mplus-1m-regular", sans-serif;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 575px) {
+  .c-menu-card__about p {
+    font-size: 1rem;
+    margin: 15px 0;
+  }
+}
+
+.c-menu-card__button {
+  display: block;
+  margin: 30px auto;
+  background-color: #ffffff;
+  width: 210px;
+  padding: 20px;
+  border-radius: 100vh;
+}
+
+@media screen and (max-width: 900px) {
+  .c-menu-card__button {
+    width: 150px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .c-menu-card__button {
+    margin: 20px auto;
+  }
+}
+
+.c-menu-card__button a {
+  font-family: "mplus-1m-bold", sans-serif;
+  color: #707070;
+  font-size: 1.3rem;
+}
+
+.c-pagenavi {
+  font-weight: bold;
+  color: #707070;
+  background-color: #ffffff;
+  border: solid 1px #707070;
+  padding: 1.5px 6px;
+  margin: 0 2px;
+}
+
+@media screen and (max-width: 575px) {
+  .c-pagenavi {
+    display: none;
+  }
+}
+
+.c-pagenavi.current {
+  color: #ffffff;
+  background-color: #3C2B1C;
 }
 
 .p-search-form {
@@ -890,6 +1022,63 @@ aside {
         -ms-flex-direction: column;
             flex-direction: column;
     font-size: 2.5rem;
+  }
+}
+
+.p-pagenavi {
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .p-pagenavi {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.p-pagenavi__pages {
+  font-family: "Robot", sans-serif;
+  color: #707070;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 575px) {
+  .p-pagenavi__pages {
+    display: none;
+  }
+}
+
+.p-pagenavi__postslink {
+  font-family: "Robot", sans-serif;
+  color: #707070;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 575px) {
+  .p-pagenavi__postslink {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.p-pagenavi__pre {
+  display: none;
+}
+
+@media screen and (max-width: 575px) {
+  .p-pagenavi__pre {
+    display: block;
+    font-family: "mplus-1m-regular", sans-serif;
   }
 }
 /*# sourceMappingURL=style.css.map */
