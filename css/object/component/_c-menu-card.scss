@@ -65,7 +65,7 @@
             padding: 15px;
         }
         @include mq(sm) {
-            margin: 20px auto;
+            margin: 20px auto 10px auto;
         }
 
         a {

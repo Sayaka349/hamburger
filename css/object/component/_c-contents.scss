@@ -26,6 +26,43 @@
             }
         }
     }
+
+    &-single{
+        padding: 37px 61px;
+        @include mq() {
+            padding: 30px;
+        }
+
+        &__titlebiggest {
+            font-family: $jp-fonts-b;
+            font-size: 2rem;
+        }
+
+        &__titlebigger {
+            font-family: $jp-fonts-b;
+            font-size: 1.7rem;
+            @include mq(sm) {
+                font-size: 1.6rem;
+            }
+        }
+
+        &__titlesimple {
+            font-family: $jp-fonts-b;
+            font-size: 1.5rem;
+            margin: 30px 0;
+
+        }
+
+        >p {
+            font-family: $jp-fonts-l;
+            font-size: 1.5rem;
+            margin: 30px 0;
+            @include mq(sm) {
+                font-size: 1rem;
+            }
+        }
+    }
+
 }
 
 main {
