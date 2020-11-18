@@ -14,6 +14,17 @@
         color: $header-color;
         font-size: 1.2rem;
         background: linear-gradient(#F2EDE9,#DED8D3);
+
+        &.type-single{
+            height: 70px;
+            width: 300px;
+            color: $major-fc;
+            @include mq(sm){
+                height: 55px;
+                width: 100%;
+                font-size: 1rem;
+            }
+        }
     }
 }
 
