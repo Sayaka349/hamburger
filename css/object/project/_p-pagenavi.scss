@@ -1,4 +1,5 @@
 .p-pagenavi {
+    margin-top: 60px;
     text-align: center;
     @include mq(sm) {
         display: flex;
