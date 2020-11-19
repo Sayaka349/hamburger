@@ -318,13 +318,13 @@ progress {
 
 @font-face {
   font-family: 'mplus-1m-regular';
-  src: url(../../fonts/mplus-1m-regular.ttf);
+  src: url(../fonts/mplus-1m-regular.ttf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'mplus-1m-bold';
-  src: url(../../fonts/mplus-1m-bold.ttf);
+  src: url(../fonts/mplus-1m-bold.ttf);
   font-weight: bold;
 }
 
@@ -412,6 +412,9 @@ img {
   }
   .l-header__menu-icon {
     display: block;
+  }
+  .l-header__menu-icon:hover {
+    cursor: pointer;
   }
   .l-header__menu-icon.show {
     display: none;
@@ -1241,6 +1244,18 @@ aside {
 
 .p-location {
   position: relative;
+}
+
+.p-location::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #707070;
+  opacity: 0.5;
+  display: block;
 }
 
 .p-location-info {
