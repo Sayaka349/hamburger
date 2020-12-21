@@ -16,6 +16,7 @@
 @include mq() {
     .l-sidebar {
         position: fixed;
+        top: 0;
         right: -240px;
         transition: 0.3s;
     }
