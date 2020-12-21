@@ -15,14 +15,16 @@
 
 @include mq() {
     .l-sidebar {
-        display: none;
+        position: fixed;
+        right: -240px;
+        transition: 0.3s;
     }
 
     .l-sidebar.show {
-        display: block;
-        position: absolute;
-        right: 0;
-        padding-bottom: 500px;
+        overflow-y: scroll;
+        height:100%;
+        right: -17px;
+        transition: 0.3s;
     }
 
     .l-sidebar__menu-icon.show {
